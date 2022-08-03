@@ -6,28 +6,28 @@ const App = () => {
   return (
     <>
       <SectionWrapper
-        title="You own store of Nifty NFTs. Start Selling & Growing"
-        description="Buy, store, collect NFTs, exchange & earn crypto. Join 25+ million people using ProNef Marketplace"
+        title="Koné Mory, Développeur web full-stack (M.E.R.N.)"
+        description="Pour la conception de toutes vos applications (web et mobile), professionnelles, intuitives qui répondent à vos exigences!"
         showBtn
-        mockupImg={assets.homeHero}
+        mockupImg={assets.me}
         banner="banner"
       />
       <SectionWrapper
-        title="Smart User Interface Marketplace"
-        description="Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design"
+        title="Des applications au design sophistiqué"
+        description="Une expérience utilisateur agréable, des couleurs agréables, excellente ergonomie. Des applications tout simplement agréables à utiliser"
         mockupImg={assets.homeCards}
         reverse
       />
       <Features />
       <SectionWrapper
-        title="Deployment"
-        description="ProNef is built using Expo which runs natively on all user' devices. You can easily get your app into people's hands"
+        title="Contact"
+        description={`Contactez-moi dès maintenant pour la conception de vos applications web et mobile. Tél: +225 07 09 14 97 47 | Email: konemory019@gmail.com | Site: en cours... `}
         mockupImg={assets.feature}
         reverse
       />
       <SectionWrapper
-        title="Creative way to showcase the store"
-        description="The app contains two screens. The first screen lists all NFTs while the second one shows the details of a specific NFT"
+        title="Satisfaire le client est la devise"
+        description="Toujours à l'écoute du client pour la réalisation de ses exigences. C'est la seule devise qui me motive"
         mockupImg={assets.mockup}
         banner="banner02"
       />

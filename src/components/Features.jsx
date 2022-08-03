@@ -18,13 +18,21 @@ const Features = () => {
             Technologies
           </h1>
           <p className={`${styles.pText} ${styles.whiteText}`}>
-            ProNef has been developed using a cross-platform technology, React
-            Native.
+            Quelques technologies qui m'accompagnent au jour le jour dans mon
+            travail
           </p>
         </div>
         <div className={styles.flexWrap}>
+          <FeatureCard iconUrl={assets.react1} iconText="React" />
           <FeatureCard iconUrl={assets.react} iconText="React Native" />
           <FeatureCard iconUrl={assets.javascript} iconText="Javascript" />
+          <FeatureCard iconUrl={assets.typescript} iconText="TypeScript" />
+          <FeatureCard iconUrl={assets.mongodb} iconText="MongoDB" />
+          <FeatureCard iconUrl={assets.express} iconText="Express" />
+          <FeatureCard iconUrl={assets.node} iconText="Node" />
+          <FeatureCard iconUrl={assets.tailwind} iconText="TailwindCSS" />
+          <FeatureCard iconUrl={assets.mui} iconText="Material-UI" />
+          <FeatureCard iconUrl={assets.antd} iconText="Antd" />
         </div>
       </div>
     </div>

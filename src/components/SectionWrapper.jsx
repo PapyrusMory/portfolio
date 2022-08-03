@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/Global";
-import assets from "../assets";
 import Button from "./Button";
 
 const SectionWrapper = ({
@@ -41,12 +40,7 @@ const SectionWrapper = ({
           >
             {description}
           </p>
-          {showBtn && (
-            <Button
-              assetUrl={assets.expo}
-              link="https://expo.dev/@papyrusmory/nft-mobile-app?serviceType=classic&distribution=expo-go"
-            />
-          )}
+          {showBtn && <Button link="https://wa.me/+2250709149747" />}
         </div>
         <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
           <img
